@@ -1,0 +1,100 @@
+/*22061086_이나경*/
+* {
+  font-family: 'Noto Serif KR', serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-size: cover;
+  background: url(bg.jpg);
+}
+/*nav start*/
+header {
+  background-color: #fff;
+  background-image: url(hea.png);
+  display: block;
+  margin: 0;
+}
+.grad {
+  background:
+     linear-gradient(217deg, rgba(74,255,203,.8), rgba(255,0,0,0) 70.71%),
+     linear-gradient(127deg, rgba(247,255,145,.8), rgba(0,255,160,0.4) 70.71%),
+     linear-gradient(336deg, rgba(0,149,94,.8), rgba(0,0,255,0) 70.71%);
+  filter: blur(1rem);
+  width: 600px;
+  height: 600px;
+  float: right;
+  margin-top: -100px;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 600px;
+  position: relative;
+  z-index: auto;
+}
+.main_menu {
+  position: relative;
+  margin: 0 auto;
+  border-bottom:solid 3px #000;
+}
+.l_nav {margin: 0; padding: 5px 120px 5px 120px; width: 1170px;}
+.main_menu ul { margin: 0; padding: 50px; list-style:none; text-align: right; }
+.main_menu li { float:none; display: inline-block; }
+.main_menu li:nth-child(1) { float:left; }
+.main_menu li:nth-child(2) { float:left; }
+.main_menu li:nth-child(3) { float:left; }
+.main_menu li a { color:#262626; font-size:20px; text-transform: uppercase;
+  text-decoration:none; display: block; padding:10px 20px 0 10px; }
+.main_menu li a:hover { color:#00955E;}
+.logo { width:150px; height:150px; position: absolute; margin-left: 670px; top:0; padding-bottom: 10px; content:""; text-align: center;}
+/*section start*/
+
+.contact-form {
+  margin-top: 60px;
+  width: 85%;
+  max-width: 600px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #00955E;
+}
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+}
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input, .txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn {
+  display: inline-block;
+  background: #00955E;
+  padding:14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}

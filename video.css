@@ -1,0 +1,49 @@
+/*22061086_이나경*/
+* {
+  font-family: 'Noto Serif KR', serif;
+  margin: 0;
+  padding: 0;
+}
+/*nav start*/
+header {
+  background-color: #fff;
+  background-image: url(hea.png);
+  display: block;
+  margin: 0;
+}
+.main_menu {
+  position: relative;
+  margin: 0 auto;
+  border-bottom:solid 3px #000;
+}
+.l_nav {margin: 0; padding: 5px 120px 5px 120px; width: 1170px;}
+.main_menu ul { margin: 0; padding: 50px; list-style:none; text-align: right; }
+.main_menu li { float:none; display: inline-block; }
+.main_menu li:nth-child(1) { float:left; }
+.main_menu li:nth-child(2) { float:left; }
+.main_menu li:nth-child(3) { float:left; }
+.main_menu li a { color:#262626; font-size:20px; text-transform: uppercase;
+  text-decoration:none; display: block; padding:10px 20px 0 10px; }
+.main_menu li a:hover { color:#00955E;}
+.logo { width:150px; height:150px; position: absolute;
+top:0; padding-bottom: 10px; content:""; margin-left: 670px; text-align: center;}
+/*header_end, main_start*/
+.gallery {
+  position:absolute;
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+  left: 15%;
+  right:15%;
+
+}
+.gallery img {
+  filter: grayscale(100%);
+  transition: 1s;
+  padding: 30px 20px;
+  width: 220px;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}

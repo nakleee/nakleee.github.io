@@ -1,0 +1,89 @@
+/*22061086_이나경*/
+* {
+  font-family: 'Noto Serif KR', serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+/*nav start*/
+header {
+  background-color: #fff;
+  background-image: url(hea.png);
+  display: block;
+  margin: 0;
+}
+.grad {
+  background:
+     linear-gradient(217deg, rgba(74,255,203,.8), rgba(255,0,0,0) 70.71%),
+     linear-gradient(127deg, rgba(247,255,145,.8), rgba(0,255,160,0.4) 70.71%),
+     linear-gradient(336deg, rgba(0,149,94,.8), rgba(0,0,255,0) 70.71%);
+  filter: blur(1rem);
+  width: 600px;
+  height: 600px;
+  float: right;
+  margin-top: -100px;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 600px;
+  position: relative;
+  z-index: auto;
+}
+.main_menu {
+  position: relative;
+  margin: 0 auto;
+  border-bottom:solid 3px #000;
+}
+.l_nav {margin: 0; padding: 5px 120px 5px 120px; width: 1170px;}
+.main_menu ul { margin: 0; padding: 50px; list-style:none; text-align: right; }
+.main_menu li { float:none; display: inline-block; }
+.main_menu li:nth-child(1) { float:left; }
+.main_menu li:nth-child(2) { float:left; }
+.main_menu li:nth-child(3) { float:left; }
+.main_menu li a { color:#262626; font-size:20px; text-transform: uppercase;
+  text-decoration:none; display: block; padding:10px 20px 0 10px; }
+.main_menu li a:hover { color:#00955E;}
+.logo { width:150px; height:150px; position: absolute; margin-left: 670px; top:0; padding-bottom: 10px; content:""; text-align: center;}
+/*section start*/
+#title_main {
+  font: 1.2em "newyork", serif;
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+#title_p {
+  font-size: 22px;
+  margin-left: 100px;
+}
+#ex {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  font-size: 18px;
+  margin-top: 260px;
+}
+.main_contents {
+  padding: 0 90px 0 90px;
+  text-align: center;
+  margin-top: 600px;
+  margin-bottom: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+  .main_contents a {
+    height: 200px;
+    color:#262626;
+    text-transform: uppercase;
+    text-decoration:none;
+    display: block;
+    font: 4em "newyork", serif;
+  }
+  .main_contents a:hover { color:#00955E;}
+footer {
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding-top:50px;
+  text-align: center;
+  background-color: black;
+}

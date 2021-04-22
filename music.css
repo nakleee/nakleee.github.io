@@ -1,0 +1,79 @@
+/*22061086_이나경*/
+* {
+  font-family: 'Noto Serif KR', serif;
+  margin: 0;
+  padding: 0;
+}
+/*nav start*/
+header {
+  background-color: #fff;
+  background-image: url(hea.png);
+  display: block;
+  margin: 0;
+}
+.main_menu {
+  position: relative;
+  margin: 0 auto;
+  border-bottom:solid 3px #000;
+}
+.l_nav {margin: 0; padding: 5px 120px 5px 120px; width: 1170px;}
+.main_menu ul { margin: 0; padding: 50px; list-style:none; text-align: right; }
+.main_menu li { float:none; display: inline-block; }
+.main_menu li:nth-child(1) { float:left; }
+.main_menu li:nth-child(2) { float:left; }
+.main_menu li:nth-child(3) { float:left; }
+.main_menu li a { color:#262626; font-size:20px; text-transform: uppercase;
+  text-decoration:none; display: block; padding:10px 20px 0 10px; }
+.main_menu li a:hover { color:#00955E;}
+.logo { width:150px; height:150px; position: absolute; top:0; padding-bottom: 10px; content:""; margin-left: 670px; text-align: center;}
+/*header_end, main_start*/
+section {
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 120px 150px 0 150px;
+}
+.player {
+  float: right;
+  position: relative;
+  width: 290px;
+padding: 5px;
+  box-shadow: 0 50px 80px rgba (0,0,0,0.25)
+}
+.player .imgb {
+  position: relative;
+  width:100%;
+  height:290px;
+}
+.player .imgb img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.player .imgb img:hover {
+  width:100%;
+  transform:scale(1.01);
+  transition: transform.1s;
+  background:rgba(0,0,0,.5);
+  opacity:0.2;
+  transition:all .4s linear;
+  z-index: 3;
+}
+.bottom {
+  text-align: center;
+  font-size: 16px;
+
+}
+.player audio {
+  width: 100%;
+  outline: none;
+  background: #f1f3f4;
+  volume:1;
+  z-index: 1;
+}
